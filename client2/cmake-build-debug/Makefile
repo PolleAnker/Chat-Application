@@ -49,10 +49,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\theme\CLionProjects\MiniProject_PCSS\client2
+CMAKE_SOURCE_DIR = C:\Users\theme\Desktop\chatApplication\client2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\theme\CLionProjects\MiniProject_PCSS\client2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\theme\Desktop\chatApplication\client2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\theme\CLionProjects\MiniProject_PCSS\client2\cmake-build-debug\CMakeFiles C:\Users\theme\CLionProjects\MiniProject_PCSS\client2\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\theme\Desktop\chatApplication\client2\cmake-build-debug\CMakeFiles C:\Users\theme\Desktop\chatApplication\client2\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\theme\CLionProjects\MiniProject_PCSS\client2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\theme\Desktop\chatApplication\client2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -112,17 +112,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named winsockTestClient
+# Target rules for targets named client2
 
 # Build rule for target.
-winsockTestClient: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) winsockTestClient
-.PHONY : winsockTestClient
+client2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) client2
+.PHONY : client2
 
 # fast build rule for target.
-winsockTestClient\fast:
-	$(MAKE) -f CMakeFiles\winsockTestClient.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\winsockTestClient.dir\build
-.PHONY : winsockTestClient\fast
+client2\fast:
+	$(MAKE) -f CMakeFiles\client2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client2.dir\build
+.PHONY : client2\fast
 
 main.obj: main.cpp.obj
 
@@ -130,7 +130,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\winsockTestClient.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\winsockTestClient.dir\main.cpp.obj
+	$(MAKE) -f CMakeFiles\client2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client2.dir\main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -139,7 +139,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\winsockTestClient.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\winsockTestClient.dir\main.cpp.i
+	$(MAKE) -f CMakeFiles\client2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client2.dir\main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -148,7 +148,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\winsockTestClient.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\winsockTestClient.dir\main.cpp.s
+	$(MAKE) -f CMakeFiles\client2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\client2.dir\main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... winsockTestClient
+	@echo ... client2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

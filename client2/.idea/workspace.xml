@@ -146,7 +146,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,20 +160,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.winsockTestClient">
+  <component name="RunManager" selected="Application.client2">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="winsockTestClient" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="winsockTestClient" TARGET_NAME="winsockTestClient" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="winsockTestClient" RUN_TARGET_NAME="winsockTestClient">
+    <configuration name="client2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="clien2" TARGET_NAME="client2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="clien2" RUN_TARGET_NAME="client2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.winsockTestClient" />
+      <item itemvalue="Application.client2" />
     </list>
   </component>
   <component name="SvnConfiguration">

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/theme/CLionProjects/MiniProject_PCSS/client2/main.cpp" "C:/Users/theme/CLionProjects/MiniProject_PCSS/client2/cmake-build-debug/CMakeFiles/winsockTestClient.dir/main.cpp.obj"
+  "C:/Users/theme/Desktop/chatApplication/client2/main.cpp" "C:/Users/theme/Desktop/chatApplication/client2/cmake-build-debug/CMakeFiles/winsockTestClient.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
