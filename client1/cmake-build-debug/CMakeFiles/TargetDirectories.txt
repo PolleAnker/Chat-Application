@@ -1,0 +1,3 @@
+C:/Users/theme/Desktop/chatApplication/client1/cmake-build-debug/CMakeFiles/winsockTestClient.dir
+C:/Users/theme/Desktop/chatApplication/client1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/theme/Desktop/chatApplication/client1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
