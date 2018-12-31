@@ -1,4 +1,4 @@
-# chatapp
+# chatApplication
 
 Github repository of project group MTA18330
 
